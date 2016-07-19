@@ -1,0 +1,129 @@
+/* Mostly: http://ryanfait.com/sticky-footer/ */
+
+* {
+	margin: 0px 0 0 0;
+}
+html, body {
+	height: 100%;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+	margin-bottom: -142px;
+    width: 278px;
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+   /*push must be the same height as footer */
+	height: 280px; 
+}
+
+
+.site-footer {
+    background-color:#680b20;
+    padding: 30px 0;
+    color:white;
+    text-align:left;
+    width: auto;
+}
+
+
+.site-footer #footer a:link, #footer a:visited, #footer a:active{
+color:#FFF;
+list-style:none;
+list-style-type:none;
+line-height:2px;
+text-decoration:none;
+}
+
+.site-footer #footer a:hover{
+color:#cee914;
+}
+
+.site-footer #footer1{
+position:relative;
+float:left;
+width:220px;
+margin:0px;
+padding:0px 0px 0px 15px;
+color:#FFF;
+    top: 0px;
+    left: 0px;
+}
+
+.site-footer #footer2{
+position:relative;
+float:left;
+width:460px;
+margin:0px;
+padding:0px 0px 0px 15px;
+color:#FFF;
+    top: 0px;
+    left: 125px;
+    height: 215px;
+}
+
+.site-footer #footer3{
+position:relative;
+float:left;
+width:170px;
+margin:0px;
+padding:0px 0px 0px 0px;
+    top: 0px;
+    left: 77px;
+}
+
+.site-footer #footer4{
+position:relative;
+float:left;
+width:203px;
+margin:0px;
+padding:0px 0px 0px 15px;
+color:#fff;
+    top: 16px;
+    left: 210px;
+}
+
+.site-footer #footer4 ol{
+list-style:none;
+list-style-type:none;
+padding:0px;
+margin:0px;
+}
+.site-footer #footer4 ol li{
+font-family:Arial, Helvetica, sans-serif;
+font-size:12;
+line-height:17px;
+}
+
+.site-footer #footerend{
+position:relative;
+clear:both;
+width:900px;
+height:1px;
+background-color:#FFF;
+}
+
+/*.site-footer #imagelink a, img{
+border:10px none #F60;
+    height: 70px;
+    width: 197px;
+}*/
+
+ol{
+padding-left:15px;
+list-style:disc;
+line-height:2;
+color:#cee914;
+}
+
+strong{
+color:#C00;
+}
+
+.boldtext{
+font-weight:bold;
+}
