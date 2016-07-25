@@ -59,8 +59,8 @@ public class NVPAPICaller
             host = host_SB;
         }
 
-        string returnURL = "https://localhost:44303/Checkout/CheckoutReview.aspx";
-        string cancelURL = "https://localhost:44303/Checkout/CheckoutCancel.aspx";
+        string returnURL = "https://winestore1.azurewebsites.net/Checkout/CheckoutReview.aspx";
+        string cancelURL = "https://winestore1.azurewebsites.net/Checkout/CheckoutCancel.aspx";
 
         NVPCodec encoder = new NVPCodec();
         encoder["METHOD"] = "SetExpressCheckout";

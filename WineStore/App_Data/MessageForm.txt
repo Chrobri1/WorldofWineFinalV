@@ -2,6 +2,6 @@
  
 @@message@@
  
-Login: @@loginLink@@
+ReplyTo: @@replyLink@@
  
 World of Wine

@@ -20,15 +20,16 @@ namespace WineStore
             messageToSend = messageToSend.Replace("@@name@@", txtName.Text);
             messageToSend = messageToSend.Replace("@@lastName@@", txtLastName.Text);
             messageToSend = messageToSend.Replace("@@message@@", txtMessage.Text);
-            messageToSend = messageToSend.Replace("@@loginLink@@", "https://localhost:44303/Contact" + txtLastName.Text);
+            messageToSend = messageToSend.Replace("@@replyLink@@", txtEmail.Text);
 
             MailMessage myMessage = new MailMessage();
             myMessage.Subject = "WorldofWine account activation";
             myMessage.Body = messageToSend;
             myMessage.From = new MailAddress("worldofwine11@gmail.com", "WorldofWine");
-            myMessage.To.Add(new MailAddress(txtEmail.Text, txtName.Text + " " + txtLastName.Text));
+            myMessage.To.Add(new MailAddress("worldofwine11@gmail.com", txtName.Text + " " + txtLastName.Text));
             SmtpClient mySmtpClient = new SmtpClient();
             mySmtpClient.Send(myMessage);
+            Response.Redirect("~/thankyou.aspx");
         }
     }
 }

@@ -78,7 +78,7 @@ namespace WineStore.Checkout
 
         protected void Continue_Click(object sender, EventArgs e)
         {
-            Response.Redirect("~/Default.aspx");
+            Response.Redirect("~/thankyou.aspx");
         }
     }
 }
