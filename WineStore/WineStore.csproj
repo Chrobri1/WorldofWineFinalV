@@ -242,10 +242,13 @@
     <Content Include="Images\banner.jpg" />
     <Content Include="Images\bck.jpg" />
     <Content Include="Images\browsetext.png" />
+    <Content Include="Images\giftset.png" />
     <Content Include="Images\Light-Grey.jpg" />
     <Content Include="Images\logo.jpg" />
     <Content Include="Images\logo1.jpg" />
     <Content Include="Images\logo2.jpg" />
+    <Content Include="Images\logofade.png" />
+    <Content Include="Images\pics.png" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />

@@ -32,13 +32,9 @@ namespace WineStore.Models
                 new Category
                 {
                     CategoryID = 4,
-                    CategoryName = "Rose"
+                    CategoryName = "Gift Sets"
                 },
-                new Category
-                {
-                    CategoryID = 5,
-                    CategoryName = "Sparkling Wine"
-                },
+                
             };
 
             return categories;
@@ -190,6 +186,33 @@ namespace WineStore.Models
                     ImagePath="CB6.png",
                     UnitPrice = 122.95,
                     CategoryID = 3
+                },
+                new Product
+                {
+                    ProductID = 17,
+                    ProductName = "The Belvoir Gift Set ",
+                    Description = "Mumm Cordon Rouge is an intensely fruity Champagne with fresh, delicate bubbles for a smooth and easy-drinking experience.Crafted from grapes sourced from over 75 different Crus across the Champagne region, G.H. Mumm Cordon Rouge is the house’s signature cuvee and perfect for any celebration.The nose reveals initial aromas of ripe fruit (green apples, white and yellow peaches, apricots), tropical notes (lychee, pineapple) and bursts into a freshness on the palate, followed by great length in the mouth, and those subtle, rich bubbles. The Cordon Rouge’s aromatic richness is a perfect match for white meat, monkfish or red mullet, and is also an ideal complement to the creamy flavours of foie gras.",
+                    ImagePath="gift1.png",
+                    UnitPrice = 4.95,
+                    CategoryID = 4
+                },
+                new Product
+                {
+                    ProductID = 29,
+                    ProductName = "The Gosset Gift Set",
+                    Description = "The Grand Brut effortlessly mixes the staple three Champagne grapes (Chardonnay, Pinot Noir, and Pinot Meunier) together to create an intricate yet lively wine. Perrier-Jouët is one of the finest Champagne Houses in the world and known for the elegance of its wines. It is also the first to have created a dry Champagne, which led to the production of its famous Brut in 1856.With fruity and floral notes merging with one another to create a delicately smooth taste, unique flavours such as pineapple and grapefruit appear on the palate to separate this from the competition. It’s these surprises that gives this balanced Grand Brut such a fantastic reputation.",
+                    ImagePath="gift2.png",
+                    UnitPrice = 42.95,
+                    CategoryID = 4
+                },
+                new Product
+                {
+                    ProductID = 30,
+                    ProductName = "The Willamette Gift Set",
+                    Description = "Thomson & Scott SKINNY Prosecco is the delicious brainchild of entrepreneur Amanda Thomson.Raised sugar-free, she made it her mission to bring to the market beautifully crafted drinks with the benefit of no and low sugar.The original Thomson & Scott Skinny Champagne with no added sugar has now been joined by Skinny Prosecco, which boasts all the traits of a traditional Prosecco, but with 50% less sugar. Not only that, but Thomson & Scott Skinny Prosecco is organic, suitable for vegans and contains just 67 calories per glass.",
+                    ImagePath="gift3.png",
+                    UnitPrice = 122.95,
+                    CategoryID = 4
                 }
             };
 

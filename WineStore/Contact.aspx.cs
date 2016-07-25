@@ -31,6 +31,11 @@ namespace WineStore
             mySmtpClient.Send(myMessage);
             Response.Redirect("~/thankyou.aspx");
         }
+
+        protected void txtMessage_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

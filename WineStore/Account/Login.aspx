@@ -52,7 +52,11 @@
                     <%-- Enable this once you have account confirmation enabled for password reset functionality
                     <asp:HyperLink runat="server" ID="ForgotPasswordHyperLink" ViewStateMode="Enabled">Forgot your password?</asp:HyperLink>
                     --%>
-                    <asp:HyperLink runat="server" ID="ForgotPasswordHyperLink" ViewStateMode="Enabled">Forgot your password?</asp:HyperLink>
+                    <%--<asp:HyperLink runat="server" ID="ForgotPasswordHyperLink" ViewStateMode="Enabled">Forgot your password?</asp:HyperLink>--%>
+                     
+                    
+                    <%--<a id="MainContent_ForgotPasswordHyperLink" href="Forgot">Forgot your password?</a>--%>
+                
                 </p>
             </section>
         </div>
@@ -61,6 +65,8 @@
             <section id="socialLoginForm">
                 <uc:OpenAuthProviders runat="server" ID="OpenAuthLogin" />
             </section>
+            
         </div>
+
     </div>
 </asp:Content>
