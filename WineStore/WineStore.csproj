@@ -230,7 +230,7 @@
     <Content Include="Checkout\CheckoutError.aspx" />
     <Content Include="Checkout\CheckoutReview.aspx" />
     <Content Include="Checkout\CheckoutStart.aspx" />
-    <Content Include="Contact.aspx" />
+    <Content Include="TheExperts.aspx" />
     <Content Include="Contact2.aspx" />
     <Content Include="Content\bootstrap-original.css" />
     <Content Include="Content\bootstrap-original.min.css" />
@@ -438,12 +438,12 @@
     <Compile Include="Checkout\CheckoutStart.aspx.designer.cs">
       <DependentUpon>CheckoutStart.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Contact.aspx.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
+    <Compile Include="TheExperts.aspx.cs">
+      <DependentUpon>TheExperts.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Contact.aspx.designer.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
+    <Compile Include="TheExperts.aspx.designer.cs">
+      <DependentUpon>TheExperts.aspx</DependentUpon>
     </Compile>
     <Compile Include="Contact2.aspx.cs">
       <DependentUpon>Contact2.aspx</DependentUpon>

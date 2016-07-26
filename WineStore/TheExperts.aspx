@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Speak to the Experts" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true"  CodeBehind="Contact.aspx.cs" Inherits="WineStore.Contact" %>
+﻿<%@ Page Title="Speak to the Experts" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true"  CodeBehind="TheExperts.aspx.cs" Inherits="WineStore.Contact" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
    <h2><%: Title %>.</h2>
